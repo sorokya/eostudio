@@ -8,16 +8,27 @@
     "preview": "vite preview",
     "tauri": "tauri"
   },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
   "dependencies": {
     "@tauri-apps/api": "^1.0.0-rc.3",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0-rc.8",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/styled-components": "^5.1.25",
     "@vitejs/plugin-react": "^1.3.0",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "tailwindcss": "^3.0.24",
+    "twin.macro": "^2.8.2",
     "typescript": "^4.6.3",
     "vite": "^2.9.5"
   }

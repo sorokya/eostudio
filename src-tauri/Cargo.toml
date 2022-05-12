@@ -1,11 +1,11 @@
 [package]
-name = "app"
+name = "eo-studio"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
-default-run = "app"
+description = "All in one data editor for Endless Online"
+authors = ["Richard Leek <richard@richardleek.com>"]
+license = "MIT"
+repository = "https://github.com/sorokya/eostudio"
+default-run = "eo-studio"
 edition = "2021"
 rust-version = "1.57"
 
